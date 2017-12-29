@@ -8,10 +8,12 @@ import { AppComponent } from './app.component';
 // angular material design
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { HeadlineLandingComponent } from './headline-landing/headline-landing.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeadlineLandingComponent
   ],
   imports: [
     BrowserModule
