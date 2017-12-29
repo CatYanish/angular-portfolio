@@ -9,16 +9,21 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { HeadlineLandingComponent } from './headline-landing/headline-landing.component';
+import { BioInfoComponent } from './bio-info/bio-info.component';
+
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeadlineLandingComponent
+    HeadlineLandingComponent,
+    BioInfoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

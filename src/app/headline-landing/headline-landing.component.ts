@@ -3,9 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-headline-landing',
   template: `
-    <p>
-      headline-landing works!
-    </p>
+    <h1>
+      Catherine Yanish | Software Engineer
+    </h1>
+    <img width="400" src="../assets/catherineHeadshot.jpg"/>
   `,
   styleUrls: ['./headline-landing.component.scss']
 })
