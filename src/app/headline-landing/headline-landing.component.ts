@@ -4,11 +4,12 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-headline-landing',
   template: `
     <div
+
     fxLayoutGap.xs="0"
     fxLayout="column"
     fxLayoutAlign="center center"
     >
-      <img fxFlexFill src="../assets/catherineHeadshot.jpg"/>
+      <img id="myHeadshot" fxFlex src="../assets/catherineHeadshot.jpg"/>
     </div>
   `,
   styleUrls: ['./headline-landing.component.scss']
