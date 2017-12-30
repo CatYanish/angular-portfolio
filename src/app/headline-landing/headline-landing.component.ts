@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
     <h1>
       Catherine Yanish | Software Engineer
     </h1>
-    <img width="400" src="../assets/catherineHeadshot.jpg"/>
+    <div fxFlexLayout="center center">
+      <img fxFlexFill src="../assets/catherineHeadshot.jpg"/>
+    </div>
   `,
   styleUrls: ['./headline-landing.component.scss']
 })
