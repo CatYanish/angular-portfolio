@@ -3,10 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-headline-landing',
   template: `
-    <h1>
-      Catherine Yanish | Software Engineer
-    </h1>
-    <div fxFlexLayout="center center">
+    <div
+    fxLayoutGap.xs="0"
+    fxLayout="column"
+    fxLayoutAlign="center center"
+    >
       <img fxFlexFill src="../assets/catherineHeadshot.jpg"/>
     </div>
   `,
