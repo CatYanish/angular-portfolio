@@ -21,7 +21,9 @@ import { FlexLayoutModule } from "@angular/flex-layout";
   ],
   imports: [
     BrowserModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

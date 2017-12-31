@@ -1,14 +1,17 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div>
-  <div >
-    <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="0">
-      <h1>
-        Catherine Yanish&nbsp; <span fxHide.xs> // &nbsp;</span>
-      </h1>
+<mat-card>
+  <div>
+      <div>
+        <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="0">
+          <h1>
+            Catherine Yanish&nbsp; <span fxHide.xs fxHide.sm> // &nbsp;</span>
+          </h1>
 
-      <h1>Software Engineer</h1>
-    </div>
+          <h1 fxLayoutAlign.xs="center center" ngClass.xs="titleFont" >Software Engineer</h1>
+        </div>
+      </div>
+
+      <app-headline-landing fxLayout="column" fxFlexAlign="center center"></app-headline-landing>
+      <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info>
+
   </div>
-  <app-headline-landing fxLayout="column" fxFlexAlign="center center"></app-headline-landing>
-  <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info>
-</div>
+</mat-card>

@@ -7,8 +7,6 @@ import { Component, OnInit } from '@angular/core';
       fxLayoutGap.xs="0"
       fxLayout="column"
       fxLayoutAlign="center center"
-
-
       >
         <p style="max-width: 75%;">
         I'm a software engineer with a lust for life and learning.
@@ -19,7 +17,6 @@ import { Component, OnInit } from '@angular/core';
         My interests outside of technology include traveling the globe (18 countries visited so far),
         and having fun learning dance with friends, especially salsa and swing.
         </p>
-
     </div>
   `,
   styleUrls: ['./bio-info.component.scss']
