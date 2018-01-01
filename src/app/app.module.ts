@@ -12,12 +12,14 @@ import { HeadlineLandingComponent } from './headline-landing/headline-landing.co
 import { BioInfoComponent } from './bio-info/bio-info.component';
 
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { FooterContactMeComponent } from './footer-contact-me/footer-contact-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadlineLandingComponent,
-    BioInfoComponent
+    BioInfoComponent,
+    FooterContactMeComponent
   ],
   imports: [
     BrowserModule,
