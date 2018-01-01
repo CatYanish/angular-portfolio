@@ -13,13 +13,15 @@ import { BioInfoComponent } from './bio-info/bio-info.component';
 
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { FooterContactMeComponent } from './footer-contact-me/footer-contact-me.component';
+import { MyProjectsComponent } from './my-projects/my-projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadlineLandingComponent,
     BioInfoComponent,
-    FooterContactMeComponent
+    FooterContactMeComponent,
+    MyProjectsComponent
   ],
   imports: [
     BrowserModule,
