@@ -1,17 +1,24 @@
 <mat-card>
   <div>
-     <mat-toolbar color="primary" fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="10px">
-        <div>
-          <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="0">
-            <h1>
-              Catherine Yanish&nbsp; <span fxHide.xs fxHide.sm> // &nbsp;</span>
-            </h1>
-            <h1 fxLayoutAlign.xs="center center" ngClass.xs="titleFont" >Software Engineer</h1>
+    <mat-card color="primary">
+       <mat-toolbar color="primary" fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+          <div>
+            <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="0">
+              <h1>
+                Catherine Yanish&nbsp; <span fxHide.xs fxHide.sm> // &nbsp;</span>
+              </h1>
+              <h1 fxLayoutAlign.xs="center center" ngClass.xs="titleFont" >Software Engineer</h1>
+            </div>
           </div>
-        </div>
-      </mat-toolbar>
+        </mat-toolbar>
+      </mat-card>
+      <div fxLayout="row">
+        <!-- Putting inside a row on large and medium screens, and then no row for small and xs -->
         <app-headline-landing fxLayout="column" fxFlexAlign="center center"></app-headline-landing>
-      <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info>
+        <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info>
+      </div>
+      <!-- <app-headline-landing fxLayout="column" fxFlexAlign="center center"></app-headline-landing>
+      <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info> -->
 
   </div>
 </mat-card>
