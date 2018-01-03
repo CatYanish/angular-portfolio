@@ -1,28 +1,23 @@
 <mat-card>
   <div>
     <mat-card color="primary">
-       <mat-toolbar color="primary" fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="10px">
-          <div>
-            <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="0">
-              <h1>
-                Catherine Yanish&nbsp; <span fxHide.xs fxHide.sm> // &nbsp;</span>
-              </h1>
-              <h1 fxLayoutAlign.xs="center center" ngClass.xs="titleFont" >Software Engineer</h1>
-            </div>
+      <mat-toolbar color="primary" fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+        <div>
+          <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="0">
+            <h1>
+              Catherine Yanish&nbsp; <span fxHide.xs fxHide.sm> // &nbsp;</span>
+            </h1>
+            <h1 fxLayoutAlign.xs="center center" ngClass.xs="titleFont" >Software Engineer</h1>
           </div>
-        </mat-toolbar>
-      </mat-card>
-      <div fxLayout="row" fxLayout.lt-md="column">
-        <!-- Putting inside a row on large and medium screens, and then no row for small and xs -->
-        <app-headline-landing fxLayout="column" fxFlexAlign="center center"></app-headline-landing>
-        <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info>
-      </div>
-      <!-- <app-headline-landing fxLayout="column" fxFlexAlign="center center"></app-headline-landing>
-      <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info> -->
-      <app-my-projects fxLayout="column" fxFlexAlign="center center"></app-my-projects>
-
-        <!-- <mat-toolbar color="primary" fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center center" fxLayoutGap="10px"> -->
-          <app-footer-contact-me fxLayout="row" fxLayoutAlign="center center"></app-footer-contact-me>
-        <!-- </mat-toolbar> -->
+        </div>
+      </mat-toolbar>
+    </mat-card>
+    <!-- <div fxLayout="row" fxLayout.lt-md="column"> -->
+      <!-- Parent div^ lays out photo and bio side by side on larger screens -->
+      <app-headline-landing fxLayout="column" fxFlexAlign="center center"></app-headline-landing>
+      <app-bio-info fxLayout="column" fxFlexAlign="center center"></app-bio-info>
+    <!-- </div> -->
+    <app-my-projects fxLayout="column" fxFlexAlign="center center"></app-my-projects>
+    <app-footer-contact-me fxLayout="row" fxLayoutAlign="center center"></app-footer-contact-me>
   </div>
 </mat-card>
