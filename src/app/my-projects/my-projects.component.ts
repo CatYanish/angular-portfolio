@@ -8,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
         My Projects
       </h1>
       <div fxLayoutAlign="center center" fxLayout="row" fxLayout.xs="column">
-        <img class="groupProject" fxLayout="column" src="../assets/GroupProjectPhoto.png"/>
+        <div class="groupProject">
+          <img fxLayout="column" src="../assets/GroupProjectPhoto.png"/>
+          <p class="textOnImage">
+          Click for a demo
+          </p>
+        </div>
         <p fxLayout="column" fxFlex="50%" fxFlexOffset="5">
           Mobility For All is like "Uber for People with Disabilities".
           Mobility For All is a full-stack mobile-friendly web application, developed
