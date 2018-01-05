@@ -13,10 +13,15 @@ img {
   opacity: .5;
 }
 
+.textOnImage {
+  color: transparent;
+}
+
 .groupProject:hover .textOnImage  {
+  opacity: 1;
   position: absolute; /* Position the background text */
    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-   color: #f1f1f1; /* Grey text */
+   background: rgba(0, 0, 0, 1); /* Black background with 0.5 opacity */
+   color: #ffffff;
    padding: 20px; /* Some padding */
 }
