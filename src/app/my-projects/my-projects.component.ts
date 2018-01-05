@@ -10,17 +10,21 @@ import { Component, OnInit } from '@angular/core';
       <div fxLayoutAlign="center center" fxLayout="row" fxLayout.xs="column">
         <div class="groupProject">
           <img fxLayout="column" src="../assets/GroupProjectPhoto.png"/>
-          <p class="textOnImage">
-          Click for a demo
-          </p>
         </div>
-        <p fxLayout="column" fxFlex="50%" fxFlexOffset="5">
-          Mobility For All is like "Uber for People with Disabilities".
-          Mobility For All is a full-stack mobile-friendly web application, developed
-          as a prototype by me and my teammates at Prime Digital Academy.
-          We used a variety of Google Maps APIs, socket.io, and JavaScipt and PostgreSQL
-          to bring the idea to life in a three week sprint.
-        </p>
+          <p fxLayout="column" fxFlex="50%" fxFlexOffset="5">
+            Mobility For All is like "Uber for People with Disabilities".
+            Mobility For All is a full-stack mobile-friendly web application, developed
+            as a prototype by me and my teammates at Prime Digital Academy.
+            We used a variety of Google Maps APIs, socket.io, and JavaScipt and PostgreSQL
+            to bring the idea to life in a three week sprint.
+          </p>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <a target="_blank" href="https://www.youtube.com/watch?v=bgvtukGvaVs">
+          <button  id="demoButton">
+           Check out a demo
+           </button>
+        </a>
       </div>
     </mat-card>
     <mat-card>
