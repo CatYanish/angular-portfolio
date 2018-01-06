@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
     fxLayout="column"
     fxLayoutAlign="center center"
     >
-      <img id="myHeadshot" ngClass.xs="photoDimensionsXS" fxFlex src="../assets/catherineHeadshot.jpg"/>
+      <img id="myHeadshot" ngClass.xs="photoDimensionsXS" fxFlex src="profile/../assets/catherineHeadshot.jpg"/>
     </div>
   `,
   styleUrls: ['./headline-landing.component.scss']

@@ -34,7 +34,7 @@ import { Component, OnInit } from '@angular/core';
         It features a happy color pallete and a simple mobile-responsive interface where housemates
         can share notes and post house chore info.
         </p>
-        <img fxLayout="column" fxFlexOffset="5" src="../assets/SoloProjectPhoto.png"/>
+        <img fxLayout="column" fxFlexOffset="5" src="profile/../assets/SoloProjectPhoto.png"/>
       </div>
     </mat-card>
   `,
