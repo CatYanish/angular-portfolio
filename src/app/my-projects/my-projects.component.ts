@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
       </h1>
       <div fxLayoutAlign="center center" fxLayout="row" fxLayout.xs="column">
         <div class="groupProject">
-          <img fxLayout="column" src="../assets/GroupProjectPhoto.png"/>
+          <img fxLayout="column" src="profile/../assets/GroupProjectPhoto.png"/>
         </div>
           <p fxLayout="column" fxFlex="50%" fxFlexOffset="5">
             Mobility For All is like "Uber for People with Disabilities".

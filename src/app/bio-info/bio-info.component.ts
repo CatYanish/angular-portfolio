@@ -9,13 +9,13 @@ import { Component, OnInit } from '@angular/core';
       fxLayoutAlign="center center"
       >
         <p style="max-width: 75%;">
-        I'm a software engineer with a lust for life and learning.
-        Deeply collaborative, I love to work with other people to complete projects and work under pressure, and for fun.
-        I'm a high intensity javascript developer, with special love of front-end frameworks like Angular, AngularJS, and React.
+        I'm a software engineer with passion for learning, teamwork, and coffee.
+        I love to work alongside smart people to complete complex projects.
+        My goal is to become a web developer on a team where people care about code, learning, and each other.
         </p>
         <p style="max-width: 75%;">
-        My interests outside of technology include traveling the globe (18 countries visited so far),
-        and having fun learning dance with friends, especially salsa and swing.
+        My interests outside of technology include traveling the globe, reading good books,
+        having fun learning dance with friends, speaking sort of decent Spanish, and listening to music.
         </p>
     </div>
   `,
